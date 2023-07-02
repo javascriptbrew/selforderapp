@@ -1,6 +1,4 @@
-$primary-bg: #f5f5f5;
-
-$secondary-font-size: 12px;
+@import './constant.scss';
 
 .home{
     background-color: $primary-bg;
