@@ -1,4 +1,3 @@
-
 # SELF ORDER APPLICATION 🍟🍕
 
 ## Installation 🔽
@@ -10,7 +9,7 @@ Before proceeding with the installation, make sure you have the following prereq
 - Libraries: NodeJs latest and yarn
 - IDE: VS code is prefered.
 
-### Step: 
+### Step:
 
 1. create a empty folder in your system.
 2. open folder in VS code.
@@ -22,4 +21,5 @@ Before proceeding with the installation, make sure you have the following prereq
   yarn
   yarn dev
 ```
+
 4. Open http://localhost:5173/ in your browser
