@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+
+  .icon {
+    flex-shrink: 0;
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .count__notif {
+    background-color: red;
+    border-radius: 50%;
+    color: whitesmoke;
+    height: 1rem;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 1rem;
+    z-index: 100;
+  }
+}
+

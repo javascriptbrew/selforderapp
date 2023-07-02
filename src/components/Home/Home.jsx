@@ -1,13 +1,14 @@
+import "../../styles/Home.scss";
 import Button from "@mui/material/Button";
 import SendIcon from "@mui/icons-material/Send";
 import { Link } from "react-router-dom";
-import "../../styles/Home.scss";
 import { useDispatch, useSelector } from "react-redux";
 import {
   increment,
   decrement,
 } from "../../globalState/storeSlices/counterSlice";
 import { useEffect } from "react";
+import Topbar from "../Header";
 
 const Home = () => {
   const count = useSelector((state) => state.counter.value);
@@ -21,6 +22,14 @@ const Home = () => {
   // API Call code End
   return (
     <div className="home">
+      {/**
+Renders the Topbar component with the specified restaurant name and table number.
+Example usage:
+@component
+@param {string} restroName - The name of the restaurant.
+@param {number} tableNum - The table number.
+<Topbar restroName={"Haldiram's"} tableNum={1} />
+*/}
       <Button variant="outlined">
         Hello world! - let build the fourth Unicorn 🚀
       </Button>
@@ -46,7 +55,7 @@ const Home = () => {
       >
         Decrement
       </Button>
-    </div>
+      </div>
   );
 };
 
