@@ -1,5 +1,6 @@
-import SignIn from "./components/Auth/User/SignIn"
-import SignUp from "./components/Auth/User/SignUp"
-import Home from "./components/Home/User/Home"
+import SignIn from "./layouts/Auth/User/SignIn"
+import SignUp from "./layouts/Auth/User/SignUp"
+import Home from "./layouts/Home/User/Home"
+import FoodMenu from "./layouts/FoodMenu"
 
-export {SignIn, SignUp, Home};
+export {SignIn, SignUp, Home, FoodMenu};
