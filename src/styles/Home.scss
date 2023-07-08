@@ -1,17 +1,34 @@
-$primary-bg: #f5f5f5;
+@import './constant.scss';
 
 .home{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
     background-color: $primary-bg;
     color: #333;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 300;
     text-align: center;
-    text-transform: uppercase;
-    gap: 1rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.homeContainer{
+    padding: 1.5rem;
+}
+
+.containerHeading{
+    margin-bottom: 1.5rem;
+}
+
+.containerBody{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.bodyInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
