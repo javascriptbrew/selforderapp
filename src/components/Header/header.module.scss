@@ -1,6 +1,8 @@
+@import '../../styles/constant.scss';
+
 .container {
   align-items: center;
-  background-color: #f0f0f0;
+  background-color: $color-light-gray;
   display: flex;
   justify-content: space-between;
   margin: 1rem;
@@ -10,18 +12,20 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+
     .restro__title {
-      color: #000;
-      font-family: Open Sans;
+      color: $color-black;
+      font-family: $font-family-open-sans;
       font-size: 1.25rem;
       font-style: normal;
       font-weight: 700;
       line-height: normal;
       text-align: center;
     }
+
     .table__num {
-      color: #000;
-      font-family: Open Sans;
+      color: $color-black;
+      font-family: $font-family-open-sans;
       font-size: 1rem;
       font-style: normal;
       font-weight: 400;
