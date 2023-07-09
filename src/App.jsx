@@ -1,6 +1,6 @@
 
 import { Route, Routes } from "react-router-dom"
-import { Home, SignIn, SignUp } from "./routes"
+import { Home, SignIn, SignUp, FoodMenu } from "./routes"
 
 function App() {
 
@@ -10,6 +10,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/user/signin" element={<SignIn />} />
         <Route path="/user/signup" element={<SignUp />} />
+        <Route path="/foodmenu" element={<FoodMenu />} />
       </Routes>
     </>
   )
