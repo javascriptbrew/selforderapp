@@ -1,0 +1,36 @@
+@import '../../styles/constant.scss';
+
+.container {
+  align-items: center;
+  background-color: $color-light-gray;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 1rem;
+
+  .restro__details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    .restro__title {
+      color: $color-black;
+      font-family: $font-family-open-sans;
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-align: center;
+    }
+
+    .table__num {
+      color: $color-black;
+      font-family: $font-family-open-sans;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-align: center;
+    }
+  }
+}
